@@ -1,0 +1,27 @@
+/* src/index.css */
+
+/*
+  ==============================================================
+  ==  DEFINICIÓN DEL TEMA DE COLOR INSTITUCIONAL (GUINDA)  ==
+  ==============================================================
+  Al sobrescribir estas variables de CoreUI, todos los componentes
+  que usen "color='primary'" (botones, fondos, etc.) se adaptarán
+  automáticamente a nuestro nuevo color institucional.
+*/
+:root {
+  --cui-primary: #8A2439; /* El color guinda principal */
+  --cui-primary-rgb: 138, 36, 57; /* El mismo color en formato RGB */
+  --cui-primary-hover: #701d2d; /* Un tono más oscuro para el hover */
+  --cui-primary-darken-1: #701d2d; /* Tono más oscuro para componentes */
+}
+
+
+/* -- Estilos existentes -- */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
